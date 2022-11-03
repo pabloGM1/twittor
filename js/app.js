@@ -9,7 +9,7 @@ if (navigator.serviceWorker){
         swLocation = "/sw.js";
 
     }
-    navigator.serviceWorker.register(swLocation)
+    navigator.serviceWorker.register(swLocation);
 }
 
 
